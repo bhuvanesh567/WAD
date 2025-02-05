@@ -1,0 +1,230 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0d0d0e;
+}
+
+/* Header Styles */
+header {
+    background-color: #3883d3;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(251, 244, 244);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1530789253388-582c481c54b0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(10, 112, 40);
+    padding: 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(228, 213, 6, 0.6);
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(148, 33, 33, 0.5);
+}
+
+/* Footer Styles */
+footer {
+    background-color:  #08396d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #c53333;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header { 
+    background-color: #090e6d;
+    color: #2d0404;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* About Section */
+.about h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.about p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Author Profiles */
+.author-profiles {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.author-profile {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.author-profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.author-profile h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.author-profile p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
